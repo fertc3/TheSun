@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PIXELWEAVE</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/PIXELWEAVE.png" />
+    <link rel="stylesheet" href="styles/estilos.css">
+
+    <link rel="stylesheet" href="styles/style_todos.css">
+    <link rel="stylesheet" href="styles/style_compo.css">
+    <link rel="stylesheet" href="styles/pixelweave_login.css">
+    <link rel="stylesheet" href="styles/buttons++.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+
+    <link rel="stylesheet" href="styles/buttons.css">
+
+
+    <!-- Esta linea es necesaria para los iconos de donde bajamos los iconos de redes sociales  -->
+    <!-- <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> -->
+    <!--load all styles -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+
+<body class="hidden">
+    <header>
+        <img class="logo" src="img/PIXEL_TRANS.png" alt="logo">
+
+        <nav class="oculto">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a class="actual" href="componentes.html">PIZARRA</a></li>
+                <li><a href="login.html">ENTRA</a></li>
+                <li><a href="descarga.html">DESCARGA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <button class="switch" id="btn-darkmode">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+            <span id="btn-menu">☰</span>
+        </div>
+    </header>
+
+    <aside id="sidebar">
+
+        <!-- ESTO ES PARA EL SIDE BAR  -->
+        <i class="fas fa-chevron-right" id="aside-open"></i>
+        <i class="fas fa-chevron-left" id="aside-close"></i>
+
+        <!-- <div id="toggle-btn">
+            <span><img src="./img/PIX_TRANS.png" width="35" height="40" align="center"></span>
+        </div> -->
+        <img class="uno" src="./img/PIXEL_TRANS.png" alt="Logo Fazt" class="logo">
+        <ul>
+            <li id="lista"><a id="left" href="#tarjetas"> Administrar cuentas</a></li>
+            <li id="lista"><a id="centrar" href="#introduccion"> Publicaciones</a> </li>
+            <li id="lista"><a id="left" href="#login"> Iniciar Sesion</a></li>
+            <!-- <li id="lista"><a id="left" href="#tarjetas"> Tarjetas</a></li>
+            <li id="lista"><a id="centrar" href="#contenido"> Contenido</a></li>
+            <li id="lista"><a id="left" href="#imagenes"> Imágenes</a></li>
+            <li id="lista"><a id="left" href="#titulos"> Títulos</a></li>
+            <li id="lista"><a id="left" href="#enlaces"> Enlaces</a></li>
+            <li id="lista"><a id="left" href="#listas"> Listas</a></li>
+            <li id="lista"><a id="left" href="#parrafos"> Párrafos</a></li>
+            <li id="lista"> <a id="centrar" href="#componentes"> Componentes</a></li>
+            <li id="lista"> <a id="left" href="#botones"> Botones</a></li>
+            <li id="lista"><a id="left" href="#alertas"> Alertas</a></li>
+            <li id="lista"><a id="centrar" href="#formularios"> Formularios</a></li>
+            <li id="lista"><a id="left" href="#check"> CheckBox</a></li>
+            <li id="lista"><a id="left" href="#carrusel"> Carrusel</a></li> -->
+
+        </ul>
+    </aside>
+
+    <main>
+        <!-- <div id="portada">
+            <h1>COMPONENTES</h1>
+            <h2>UNICOS DE PIXELWEAVE</h2>
+        </div> -->
+
+        <i id="btn-subirAlCielo" class="fas fa-arrow-up sombra-resaltable"></i>
+
+        <!-- <div class="toggleButton">
+            <div class="button icon-sun"> <span> <br>modo nocturno</span> </div>
+        </div> -->
+
+        <br>
+        <br>
+
+
+        <section class="seccion">
+            <div class="introduccion">
+                <h1 id="introduccion">Administracion de cuentas</h1> <br>
+                <p>en la siguiente tabla podras administrar los usuarios que tienes , asi como asignarles o revocarles
+                    privilegios </p> <br>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="tab-content">
+                            <div class="tab-pane fade" id="listYear">
+                                <div class="table-responsive">
+                                    <table class="table table-hover text-center">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Year</th>
+                                                <th class="text-center">Start Date</th>
+                                                <th class="text-center">End Date</th>
+                                                <th class="text-center">Update</th>
+                                                <th class="text-center">Delete</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>2017</td>
+                                                <td>23/01/2017</td>
+                                                <td>07/11/2017</td>
+                                                <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i
+                                                            class="zmdi zmdi-refresh"></i></a></td>
+                                                <td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i
+                                                            class="zmdi zmdi-delete"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>2016</td>
+                                                <td>23/01/2016</td>
+                                                <td>07/11/2016</td>
+                                                <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i
+                                                            class="zmdi zmdi-refresh"></i></a></td>
+                                                <td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i
+                                                            class="zmdi zmdi-delete"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>2015</td>
+                                                <td>23/01/2015</td>
+                                                <td>07/11/2015</td>
+                                                <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i
+                                                            class="zmdi zmdi-refresh"></i></a></td>
+                                                <td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i
+                                                            class="zmdi zmdi-delete"></i></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <ul class="pagination pagination-sm">
+                                        <li class="disabled"><a href="#!">«</a></li>
+                                        <li class="active"><a href="#!">1</a></li>
+                                        <li><a href="#!">2</a></li>
+                                        <li><a href="#!">3</a></li>
+                                        <li><a href="#!">4</a></li>
+                                        <li><a href="#!">5</a></li>
+                                        <li><a href="#!">»</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="formularios">
+                <h1 id="formularios">Formularios</h1><br>
+                <p>Los formularios son una excelente herramienta para
+                    que los solcitantes ecuentre la forma de comunicarse o en la necesidad
+                    de crer encuestas.</p> <br>
+                <form id="formulario">
+
+                    <label for="input-nombre">Nombre:<span>*</span></label> <br>
+                    <input type="text" id="input-nombre" placeholder="NOMBRE"> <br>
+
+                    <label for="input-apellido">Apellido Paterno:<span>*</span></label> <br>
+                    <input type="text" id="input-apellido" placeholder="APELLIDO"> <br>
+
+                    <label for="input-correo">Correo:<span>*</span></label> <br>
+                    <input type="email" id="correo" placeholder="CORREO ELECTRONICO"> <br>
+
+                    <label for="input-edad">Edad: <span>*</span></label> <br>
+                    <input type="number" id="input-edad" placeholder="EDAD"> <br>
+
+                    <label for="Sexo">Sexo:<span>*</span></label> <br>
+                    <select> <br>
+                        <option> Mujer </option>
+                        <option> Hombre </option>
+                    </select><br>
+
+                    <label for="asunto">Asunto:<span>*</span></label><br>
+                    <textarea id="asunto"></textarea><br>
+
+                    <input type="submit" id="btnEnviar"></input><br><br>
+                    <input type="reset" id="borrar">
+                </form> <br>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="img/PIXEL_TRANS.png" alt="">
+            </div>
+            <div class="iconos">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-twitter-square"></i>
+
+            </div>
+            <p>La creatividad es la inteligencia divirtiéndose. Albert Einstein </p>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+    <script src="js/aside.js"></script>
+    <script src="js/pixelweave.js"></script>
+</body>
+
+</html>
